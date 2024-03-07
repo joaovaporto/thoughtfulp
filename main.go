@@ -19,6 +19,6 @@ func main() {
 		fmt.Printf("Timestamp: %x\n", block.Timestamp)
 		fmt.Printf("Hash of the block: %x\n", block.MyBlockHash)
 		fmt.Printf("Hash of the previous Block: %x\n", block.PreviousBlockHash)
-		fmt.Printf("All the transaction: %s\n", block.AllData)
+		fmt.Printf("All the transactions: %s\n", block.AllData)
 	}
 }
